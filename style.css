@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+    transition: background-color 0.25s;
+}
+section#colour-display{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 100px auto;
+    width: 25%;
+    font-size: 25px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 30px black;
+    padding: 15%;
+    border-radius: 8px;
+}
+section#colour-display h1{
+    font-family: "Jersey 15", sans-serif;
+}
+section#colour-display #new-colour-button{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    width: 50%;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+}
